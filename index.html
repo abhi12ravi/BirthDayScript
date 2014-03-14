@@ -7,6 +7,7 @@
 
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -15,30 +16,87 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1>Birthdayscript</h1>
-        <p>This script is helpful in automatically commenting &quot;thank you&quot; messages for your friend&#39;s wall-posts on your Facebook wall on your birth day. </p>
-
-        <p class="view"><a href="https://github.com/abhi12ravi/BirthDayScript">View the Project on GitHub <small>abhi12ravi/BirthDayScript</small></a></p>
-
+        <h1 class="header">Birthdayscript</h1>
+        <p class="header">This script is helpful in automatically commenting &quot;thank you&quot; messages for your friend&#39;s wall-posts on your Facebook wall on your birth day. </p>
 
         <ul>
-          <li><a href="https://github.com/abhi12ravi/BirthDayScript/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/abhi12ravi/BirthDayScript/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/abhi12ravi/BirthDayScript">View On <strong>GitHub</strong></a></li>
+          <li class="download"><a class="buttons" href="https://github.com/abhi12ravi/BirthDayScript/zipball/master">Download ZIP</a></li>
+          <li class="download"><a class="buttons" href="https://github.com/abhi12ravi/BirthDayScript/tarball/master">Download TAR</a></li>
+          <li><a class="buttons github" href="https://github.com/abhi12ravi/BirthDayScript">View On GitHub</a></li>
         </ul>
+
+        <p class="header">This project is maintained by <a class="header name" href="https://github.com/abhi12ravi">abhi12ravi</a></p>
+
+
       </header>
       <section>
         <h1>
 <a name="birthdayscript" class="anchor" href="#birthdayscript"><span class="octicon octicon-link"></span></a>BirthDayScript</h1>
 
 <p>This script is helpful in automatically commenting "thank you" messages for your friend's wall-posts on your birth day. </p>
+
+<h1>
+<a name="note" class="anchor" href="#note"><span class="octicon octicon-link"></span></a>Note:</h1>
+
+<p>This script is still in the beta stage, so I've not yet added options to dynamically change your response based on the person to which the reply is sent. For example, your teachers and your friends are bound to get similar comments, so watch out!</p>
+
+<h1>
+<a name="instructions" class="anchor" href="#instructions"><span class="octicon octicon-link"></span></a>Instructions:</h1>
+
+<ol>
+<li>
+<p>Install Python 2.7 on your machine</p>
+
+<h5>
+<a name="sudo-apt-get-install-python" class="anchor" href="#sudo-apt-get-install-python"><span class="octicon octicon-link"></span></a>$sudo apt-get install python</h5>
+</li>
+<li><p>Dowload the .zip or .tar.gz package. Extract it. </p></li>
+<li>Open the <em>bday.py</em> file on your editor. </li>
+<li>On Line 9, you have to give your access token provided by FB. </li>
+<li>Getting an Access Token from Facebook involves these steps:
+
+<ul>
+<li>Head to this link <a href="https://developers.facebook.com/tools/explorer">Fb Dev tools</a>
+</li>
+<li>Select <strong>Graph API Explorer</strong> and then click on <strong>Get Access Token</strong>
+</li>
+<li>Select these options: publish_ actions , publish_ stream , read_ stream , status_ update and user_ about_me in the pop-up window</li>
+<li>And then click on Get Access Token again and voila, you're done</li>
+<li>Copy the access token and paste it on Line 7 in place of </li>
+<li>Your access token expires every 1 hour </li>
+</ul>
+</li>
+<li>Save the <em>bday.py</em> file and exit from editor.</li>
+<li>Open up a terminal window and navigate to the directory where bday.py file is present.</li>
+<li>
+<p>To run it,</p>
+
+<h5>
+<a name="python-bdaypy" class="anchor" href="#python-bdaypy"><span class="octicon octicon-link"></span></a>$python bday.py</h5>
+</li>
+<li>And you're done! I've attached screenshots of how it looks when all goes well. Check out!</li>
+<li>Press <strong>Ctrl + Z</strong> to stop posting when you'd like the script to stop commenting.</li>
+</ol><h1>
+<a name="word-of-caution" class="anchor" href="#word-of-caution"><span class="octicon octicon-link"></span></a>Word of caution!</h1>
+
+<p>*Best time to run the script is at the end of the day, on your birth day when you have a great number of posts.</p>
+
+<p>*Currently there's no end condition for the script, so you have to choose wisely about how to end the script.</p>
+
+<p>*All modifications and updates are welcome.</p>
+
+<h1>
+<a name="resources" class="anchor" href="#resources"><span class="octicon octicon-link"></span></a>Resources:</h1>
+
+<p>*<a href="http://pradeepnayak.in/technology/2012/08/13/programatically-responding-to-your-bday-wishes-on-facebook/">Pradeep Nayak</a> </p>
+
+<p>*<a href="http://www.quora.com/Python-programming-language-1/What-are-the-best-Python-scripts-youve-ever-written">Quora- Akshit Khurana</a></p>
       </section>
       <footer>
-        <p>This project is maintained by <a href="https://github.com/abhi12ravi">abhi12ravi</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+        <p><small>Hosted on <a href="http://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
       </footer>
     </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+		
   </body>
 </html>
