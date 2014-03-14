@@ -27,7 +27,7 @@ This script is still in the beta stage, so I've not yet added options to dynamic
     
   #####$python bday.py
 9. And you're done! I've attached screenshots of how it looks when all goes well. Check out!
-10. Press Ctrl + Z to stop posting when you'd like the script to stop commenting.
+10. Press __Ctrl + Z__ to stop posting when you'd like the script to stop commenting.
 
  
 #Word of caution!
