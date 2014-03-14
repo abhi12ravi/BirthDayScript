@@ -31,13 +31,11 @@ This script is still in the beta stage, so I've not yet added options to dynamic
 
  
 #Word of caution!
-  *Best time to run the script is at the end of the day, on your birth day when you have a great number of posts.
-  
-  *Currently there's no end condition for the script, so you have to choose wisely about how to end the script.
-  
-  *All modifications and updates are welcome.
+  * Best time to run the script is at the end of the day, on your birth day when you have a great number of posts.
+  * Currently there's no end condition for the script, so you have to choose wisely about how to end the script.
+  * All modifications and updates are welcome.
   
 #Resources:
-  *[Pradeep Nayak](http://pradeepnayak.in/technology/2012/08/13/programatically-responding-to-your-bday-wishes-on-facebook/) 
+  * [Pradeep Nayak](http://pradeepnayak.in/technology/2012/08/13/programatically-responding-to-your-bday-wishes-on-facebook/) 
   
-  *[Quora- Akshit Khurana](http://www.quora.com/Python-programming-language-1/What-are-the-best-Python-scripts-youve-ever-written)
+  * [Quora- Akshit Khurana](http://www.quora.com/Python-programming-language-1/What-are-the-best-Python-scripts-youve-ever-written)
